@@ -4,7 +4,12 @@ import java.util.Set;
 public class work1 {
     public static void main(String[] args) {
         //8月19日
+
+        //LeetCode 3.无重复字符的最长子串
+
+        
         //不懂可以看BV113411v7Ak
+        
 
         /*窗口：[left , right]，窗口内保存没有重复字符的连续子串
           right（右指针）：循环不断向右走，负责扩大窗口，遍历每一个字符
