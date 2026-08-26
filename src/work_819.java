@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class work1 {
+public class work_819 {
     public static void main(String[] args) {
         //8月19日
 
