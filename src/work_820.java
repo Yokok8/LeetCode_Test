@@ -1,4 +1,4 @@
-public class work2 {
+public class work_820 {
     public static void main(String[] args) {
         //8月20日
         //LeetCode 209.长度最小的子数组
