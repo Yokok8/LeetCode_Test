@@ -7,7 +7,7 @@ public class work_916 {
 
         int[] nums = {2,1,5,0,4,6};
 
-        //枚举中间点	对每个 j，看「左边最小值 < nums[j] 且右边最大值 > nums[j]」
+        //1.枚举中间点	对每个 j，看「左边最小值 < nums[j] 且右边最大值 > nums[j]」
         //固定中间那个数，左边找最小、右边找最大。
 
         int n = nums.length;
@@ -29,6 +29,28 @@ public class work_916 {
                 System.out.println(true);
             }
         }
+
+        /*//2.贪心
+        //定义frist和second,
+        int first = Integer.MAX_VALUE;
+        int second = Integer.MAX_VALUE;
+
+        //遍历数组
+        for(int num:nums){
+            if(num<=first){
+                //如果num小于first，first就记录当前数字
+                first = num;
+            }else if(num<=second){
+                //如果num大于first而且小于second，second就记录当前数字
+                second = num;
+            }else{
+                //运行到这说明，遍历到三个数符合题目要求，返回true；
+                return true;
+            }
+
+        }
+        return false;*/
+
 
     }
 }
